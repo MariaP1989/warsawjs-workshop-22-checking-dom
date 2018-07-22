@@ -8,7 +8,7 @@ const document = window.document;
 global.document = document;
 
 testAva('is function, 1', (assert) => {
-  assert.true(typeof Gallery === 'function')
+  assert.true(typeof Gallery === 'object')
 })
 
 testAva('not an arrow fucntion, 1', (assert) => {
